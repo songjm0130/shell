@@ -42,7 +42,7 @@ rm ./data/processed/user_logs/*ipaddr*
 # removed coworker-change because it is a typo of "rm"
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 touch ./data/inventory.txt
-ls ./data/processed/ >> inventory.txt
+ls -R ./data/processed/ >> inventory.txt
 
 
 
